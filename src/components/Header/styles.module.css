@@ -1,0 +1,20 @@
+.header {
+  align-items: center;
+  background: var(--bg-gradient);
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  justify-content: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+.input {
+  background-color: rgba(121, 121, 121, 0.267);
+  border-radius: 5px;
+  border: none;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  width: 80vw;
+}
