@@ -21,7 +21,7 @@ This Pokedex app is your go-to resource for exploring the vast world of Pokémon
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://your-repository-url.git
+   git clone https://github.com/smigueles/pokedex.git
    ```
 
 2. **Installation:**
