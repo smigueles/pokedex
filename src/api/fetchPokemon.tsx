@@ -8,9 +8,8 @@ export const fetchPokemon = async (name: string): Promise<PokemonDetail> => {
   if (!response.ok) {
     throw new Error(`Error fetching ${name}`);
   }
-  
+
   const result = await response.json();
-  console.log(result);
   const pokemonDetail = {
     name: result.name,
     id: result.id,

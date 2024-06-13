@@ -40,16 +40,17 @@
 }
 
 .listItemText > :first-child {
-  background: -webkit-gradient(
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
     rgba(124, 166, 252, 1) 25%,
     rgba(119, 235, 129, 1) 100%
   );
-  -webkit-backdrop-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 1rem;
+  background-clip: text;
   display: block;
-  margin-bottom: 11px;
+  font-size: 1rem;
   font-weight: bold;
+  margin-bottom: 11px;
 }
 
 .listItemText > :last-child {
