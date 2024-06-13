@@ -4,7 +4,7 @@ This Pokedex app is your go-to resource for exploring the vast world of Pokémon
 
 ## Features
 
-- **Search Functionality:** Quickly find your favorite Pokémon by name or number.
+- **Search Functionality:** Quickly find your favorite Pokémon by name.
 - **Detailed View:** Dive into comprehensive information about each Pokémon.
 - **Responsive Design:** Enjoy a smooth experience on both desktop and mobile devices.
 
@@ -21,7 +21,7 @@ This Pokedex app is your go-to resource for exploring the vast world of Pokémon
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://your-repository-url.git
+   git clone https://github.com/smigueles/pokedex.git
    ```
 
 2. **Installation:**
