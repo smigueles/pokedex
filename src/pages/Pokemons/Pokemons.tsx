@@ -24,7 +24,9 @@ const Pokemons = () => {
 
   const filterPokemons = pokemons
     .slice(0, 251)
-    .filter((pokemon) => pokemon.name.toLowerCase().match(query));
+    .filter((pokemon) =>
+      pokemon.name.toLowerCase().match(query.toLocaleLowerCase())
+    );
 
   return (
     <div className={styles.container}>
